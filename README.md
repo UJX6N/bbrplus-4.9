@@ -34,14 +34,14 @@ net.ipv4.tcp_congestion_control = bbrplus    or    net.ipv4.tcp_congestion_contr
 <br/>
 
 ### 2) download officaial linux kernel
-        say 4.9.237        
-            wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.237.tar.gz
+        say 4.9.238        
+            wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.238.tar.gz
 
 <br/>
 <br/>
 
 ### 3) extract the tarball & cd extracted directory
-        tar zxvf linux-4.9.237.tar.gz && cd linux-4.9.237
+        tar zxvf linux-4.9.238.tar.gz && cd linux-4.9.238
 
 <br/>
 <br/>
