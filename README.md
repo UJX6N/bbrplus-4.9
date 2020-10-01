@@ -1,16 +1,22 @@
 # bbrplus-4.9
 Linux BBRplus Kernel 4.9 ported from BBRplus 4.14   
 with nvme_core.io_timeout patch (otherwise may got long boot time on some VMs)  
+<br/>
+<br/>
+<br/>
+
+***based on original version***  
+https://github.com/cx9208/bbrplus 
   
-  
-  
+<br/>
+<br/> 
 ## some improvements as oct-2020
 
 ###  i)   merged official v4.14 tcp_bbr patches between 2018-20 into bbrplus  
 ###  ii)  keep official tcp_bbr module in the kernel, now can do either  
 <br/>
-net.ipv4.tcp_congestion_control = bbrplus    or    net.ipv4.tcp_congestion_control = bbr   
 <br/>
+net.ipv4.tcp_congestion_control = bbrplus    or    net.ipv4.tcp_congestion_control = bbr   
 <br/>
 <br/>
 <br/>
