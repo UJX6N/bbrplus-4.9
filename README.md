@@ -16,7 +16,6 @@ https://github.com/cx9208/bbrplus
 ###  i)   merged official v4.14 tcp_bbr patches between 2018-20 into bbrplus  
 ###  ii)  keep official tcp_bbr module in the kernel, now can do either  
 <br/>
-<br/>
 net.ipv4.tcp_congestion_control = bbrplus    or    net.ipv4.tcp_congestion_control = bbr   
 <br/>
 <br/>
