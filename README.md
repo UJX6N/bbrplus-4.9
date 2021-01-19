@@ -11,7 +11,7 @@ https://github.com/cx9208/bbrplus
 <br/>
 <br/> 
 
-## some improvements as oct-2020
+## some improvements as Jan-2021
 
 ###  i)   merged official v4.14 tcp_bbr patches between 2018-20 into bbrplus  
 ###  ii)  keep official v4.9 tcp_bbr module in the kernel, now can do either  
@@ -34,14 +34,14 @@ net.ipv4.tcp_congestion_control = bbrplus    or    net.ipv4.tcp_congestion_contr
 <br/>
 
 ### 2) download officaial linux kernel
-        say 4.9.228        
-            wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.228.tar.gz
+        say 4.9.252        
+            wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.gz
 
 <br/>
 <br/>
 
 ### 3) extract the tarball & cd extracted directory
-        tar zxvf linux-4.9.228.tar.gz && cd linux-4.9.228
+        tar zxvf linux-4.9.252.tar.gz && cd linux-4.9.252
 
 <br/>
 <br/>
